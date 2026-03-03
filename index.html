@@ -4,37 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Books of Shadows</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        FEEL FREE TO READ MY STORIES
-    </h1>
-  <a href="https://books-of-shadows.vercel.app//BOOKS OF SHADOWS.com.pdf" target="_blank">
+  <h1>Feel Free to Read My Stories</h1>
+  <p>Click the button below to open my “Books of Shadows” PDF.</p>
+  <a href="https://books-of-shadows.vercel.app/BOOKS OF SHADOWS.com.pdf" target="_blank">
     Open BOOKS OF SHADOWS PDF
-  </a>
-      <style>
+  </a><br>
+  <div class="bru">
+  <CREATOR>WRITEN BY INEZA AIME BRUNO (BRU)</CREATOR>
+    </div>
+
+  <footer>© 2026 Books of Shadows</footer>
+    <style>
     body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
+      background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
+      color: #fff;
+      text-align: center;
     }
-        h1 {
-            color: red;
-        }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: #ff6f61;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      color: #f0f0f0;
+    }
+
     a {
       text-decoration: none;
       color: white;
-      background-color: #4CAF50;
-      padding: 12px 24px;
-      border-radius: 6px;
-      font-size: 18px;
+      background: linear-gradient(90deg, #ff6f61, #ff9472);
+      padding: 18px 36px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     }
+
     a:hover {
-      background-color: #45a049;
+      background: linear-gradient(90deg, #ff9472, #ff6f61);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+      .bru {
+        color: red;
+      }
   </style>
 </body>
 </html>
